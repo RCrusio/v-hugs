@@ -1,0 +1,100 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background: linear-gradient(#e8f0f7 50%, #4d5bf9 50%);
+}
+.container {
+  height: 400px;
+  width: 400px;
+  background-color: #ffffff;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 8px;
+  box-shadow: 20px 20px 40px rgba(60, 60, 150, 0.25);
+  display: grid;
+  place-items: center;
+}
+
+.intro{
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+    
+  }
+
+
+/* CSS */
+.button-66 {
+    background-color: #0a6bff;
+    border-radius: 4px;
+    border: 0;
+    box-shadow: rgba(1,60,136,.5) 0 -1px 3px 0 inset,rgba(0,44,97,.1) 0 3px 6px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inherit;
+    font-family: "Space Grotesk",-apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0;
+    min-height: 56px;
+    min-width: 120px;
+    padding: 16px 20px;
+    position: relative;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    transition: all .2s cubic-bezier(.22, .61, .36, 1);
+  }
+  
+  .button-66:hover {
+    background-color: #065dd8;
+    transform: translateY(-2px);
+  }
+  
+  @media (min-width: 768px) {
+    .button-66 {
+      padding: 16px 44px;
+      min-width: 150px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .container {
+      height: 500px;
+      width: 300px;
+    }
+    .img{
+      width: 150px;
+    }
+  
+    .circular-progress {
+  
+      height: 200px;
+      width: 200px;
+    }
+  
+    .value-container {
+      position: relative;
+      font-family: "Poppins", sans-serif;
+      font-size: 40px;
+      color: #231c3d;
+    }
+  
+    .intro{
+      font-size: 25px;
+      font-family: "Poppins", sans-serif;
+      
+    }
+  }
