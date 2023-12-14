@@ -62,6 +62,10 @@ body {
     background-color: #065dd8;
     transform: translateY(-2px);
   }
+
+  a{
+    text-decoration: none;
+  }
   
   @media (min-width: 768px) {
     .button-66 {

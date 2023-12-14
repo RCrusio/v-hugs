@@ -16,6 +16,6 @@ let progress = setInterval(() => {
 
   if (progressValue == progressEndValue) {
     clearInterval(progress);
-    completionMessage.textContent = "Hug Sent❤";
+    completionMessage.textContent = "Hug Sent... Love You hehe";
   }
 }, speed);
